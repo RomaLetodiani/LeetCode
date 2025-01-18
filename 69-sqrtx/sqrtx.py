@@ -11,10 +11,10 @@ class Solution:
             if mid * mid == x:
                 return mid
             
-            if mid * mid < x:
+            elif mid * mid < x:
                 left = mid + 1
-                continue
             
-            right = mid - 1
-            
+            else:
+                right = mid - 1
+
         return right
