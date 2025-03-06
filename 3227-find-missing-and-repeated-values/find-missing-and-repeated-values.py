@@ -20,6 +20,4 @@ class Solution:
             if (v == 0):
                 b = k
             
-        print(m)
-
         return [a, b]
